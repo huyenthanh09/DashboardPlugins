@@ -1,0 +1,9 @@
+.gd-select button,
+.gd-select input,
+.gd-select optgroup,
+.gd-select select,
+.gd-select textarea {
+  outline: 0;
+}
+
+/*# sourceMappingURL=Select.css.map */

@@ -1,0 +1,1146 @@
+{
+    "or": {
+        "value": "or",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.column._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.column._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.bar._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.bar._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.line._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.line._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.area._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.area._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.pie._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.pie._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.funnel._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.funnel._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.treemap._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.treemap._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.donut._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.donut._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.heatmap._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.heatmap._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.headline._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.headline._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_subtitle.headline": {
+        "value": "primary",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.headline._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.headline._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_subtitle.headline": {
+        "value": "secondary",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.scatter._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.scatter._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.scatter._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.scatter._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_subtitle.scatter": {
+        "value": "X-axis",
+        "comment": "Horizontal axis of a scatter plot.",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_subtitle.scatter": {
+        "value": "Y-axis",
+        "comment": "Vertical axis of a scatter plot.",
+        "limit": 0
+    },
+    "dashboard.bucket.attribute_title.scatter": {
+        "value": "Attribute",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.combo._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.combo._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_subtitle.combo": {
+        "value": "Column",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.combo._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.combo._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_subtitle.combo": {
+        "value": "Line",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.xirr._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.xirr._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.attribute_title.xirr": {
+        "value": "Date attribute",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.combo.subtitle.column": {
+        "value": "as columns",
+        "comment": "Display measures in column chart = 'as columns'.",
+        "limit": 0
+    },
+    "dashboard.bucket.combo.subtitle.line": {
+        "value": "as lines",
+        "comment": "Display measures in line chart = 'as lines'.",
+        "limit": 0
+    },
+    "dashboard.bucket.combo.subtitle.area": {
+        "value": "as areas",
+        "comment": "Display measures in area chart = 'as areas'.",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.bubble._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.bubble._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.bubble._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.bubble._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.tertiary_measures_title.bubble._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.tertiary_measures_title.bubble._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_subtitle.bubble": {
+        "value": "X-axis",
+        "comment": "Horizontal axis of a bubble plot.",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_subtitle.bubble": {
+        "value": "Y-axis",
+        "comment": "Vertical axis of a bubble plot.",
+        "limit": 0
+    },
+    "dashboard.bucket.tertiary_measures_subtitle.bubble": {
+        "value": "Size",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.location_title.pushpin": {
+        "value": "Location",
+        "comment": "Position of a pin pushed to a map.",
+        "limit": 0
+    },
+    "dashboard.bucket.size_title.pushpin._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.size_title.pushpin._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.size_subtitle.pushpin": {
+        "value": "Size",
+        "comment": "Size of a pin pushed to a map",
+        "limit": 0
+    },
+    "dashboard.bucket.color_title.pushpin._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.color_title.pushpin._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.color_subtitle.pushpin": {
+        "value": "Color",
+        "comment": "Color of a pin pushed to a map",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.bubble": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.pie": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.treemap": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.donut": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.funnel": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.column": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.bar": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.area": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.bullet": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.heatmap": {
+        "value": "Rows",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.trend_title.line": {
+        "value": "Trend by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.view_title.combo": {
+        "value": "View by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.stack_title.column": {
+        "value": "Stack by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.stack_title.bar": {
+        "value": "Stack by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.stack_title.area": {
+        "value": "Stack by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.stack_title.heatmap": {
+        "value": "Columns",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.segment_title.line": {
+        "value": "Segment by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.segment_title.treemap": {
+        "value": "Segment by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.segment_title.pushpin": {
+        "value": "Segment by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.metric_segment_by_warning._measure": {
+        "value": "To add additional measure, remove {icons} from '<span class=\"stack-by\">'segment by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'segment by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.metric_segment_by_warning._metric": {
+        "value": "To add additional metric, remove {icons} from '<span class=\"stack-by\">'segment by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'segment by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.metric_stack_by_warning._measure": {
+        "value": "To add additional measure, remove {icons} from '<span class=\"stack-by\">'stack by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'stack by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.metric_stack_by_warning._metric": {
+        "value": "To add additional metric, remove {icons} from '<span class=\"stack-by\">'stack by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'stack by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.metric_view_by_warning._measure": {
+        "value": "To add additional measure, remove {icons} from '<span class=\"stack-by\">'view by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'view by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.metric_view_by_warning._metric": {
+        "value": "To add additional metric, remove {icons} from '<span class=\"stack-by\">'view by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'view by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.category_view_by_warning._measure|insight": {
+        "value": "To view by another attribute, an insight can have only one measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_view_by_warning._metric|insight": {
+        "value": "To view by another attribute, an insight can have only one metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_view_by_warning._measure|report": {
+        "value": "To view by another attribute, a report can have only one measure",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.category_view_by_warning._metric|report": {
+        "value": "To view by another attribute, a report can have only one metric",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.view_stack_by_warning": {
+        "value": "To add additional attribute, remove {icons} from '<span class=\"stack-by\">'stack by'</span>'",
+        "comment": "Do not translate HTML markup enclosed in '<>'. Do not translate {icons}. Translate words 'stack by'.",
+        "limit": 0
+    },
+    "dashboard.bucket.category_stack_by_warning._measure|insight": {
+        "value": "To stack by, an insight can have only one measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_stack_by_warning._metric|insight": {
+        "value": "To stack by, an insight can have only one metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_stack_by_warning._measure|report": {
+        "value": "To stack by, a report can have only one measure",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.category_stack_by_warning._metric|report": {
+        "value": "To stack by, a report can have only one metric",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.stack_view_by_warning|insight": {
+        "value": "To stack by, an insight can have only one attribute in view by",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.stack_view_by_warning|report": {
+        "value": "To stack by, a report can have only one attribute in view by",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.measure_stack_by_warning._measure|insight": {
+        "value": "To stack by an attribute, an insight can have only one measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measure_stack_by_warning._metric|insight": {
+        "value": "To stack by an attribute, an insight can have only one metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measure_stack_by_warning._measure|report": {
+        "value": "To stack by an attribute, a report can have only one measure",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.measure_stack_by_warning._metric|report": {
+        "value": "To stack by an attribute, a report can have only one metric",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.category_category_by_warning._measure|insight": {
+        "value": "To view by, an insight can have only one measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_category_by_warning._metric|insight": {
+        "value": "To view by, an insight can have only one metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_category_by_warning._measure|report": {
+        "value": "To view by, a report can have only one measure",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.category_category_by_warning._metric|report": {
+        "value": "To view by, a report can have only one metric",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.category_segment_by_warning._measure|insight": {
+        "value": "To segment by, an insight can have only one measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_segment_by_warning._metric|insight": {
+        "value": "To segment by, an insight can have only one metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.category_segment_by_warning._measure|report": {
+        "value": "To segment by, a report can have only one measure",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.category_segment_by_warning._metric|report": {
+        "value": "To segment by, a report can have only one metric",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.measures_title.table._measure": {
+        "value": "Measures",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.table._metric": {
+        "value": "Metrics",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.attribute_title.table": {
+        "value": "Rows",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.columns_title.table": {
+        "value": "Columns",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.error.missing_primary_bucket_item.heading._measure|insight": {
+        "value": "No primary measure in your insight",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.error.missing_primary_bucket_item.heading._metric|insight": {
+        "value": "No primary metric in your insight",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.error.missing_primary_bucket_item.heading._measure|report": {
+        "value": "No primary measure in your report",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.error.missing_primary_bucket_item.heading._metric|report": {
+        "value": "No primary metric in your report",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.error.missing_primary_bucket_item.text._measure|insight": {
+        "value": "Add a primary measure to your insight, or switch to table.\nOnce done, you'll be able to save it.",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.error.missing_primary_bucket_item.text._metric|insight": {
+        "value": "Add a primary metric to your insight, or switch to table.\nOnce done, you'll be able to save it.",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.error.missing_primary_bucket_item.text._measure|report": {
+        "value": "Add a primary measure to your report, or switch to table.\nOnce done, you'll be able to save it.",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.error.missing_primary_bucket_item.text._metric|report": {
+        "value": "Add a primary metric to your report, or switch to table.\nOnce done, you'll be able to save it.",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.xirr.error.invalid_buckets.heading": {
+        "value": "Incomplete configuration",
+        "comment": "Informs the user that they have not provided all the necessary configuration items (one measure and one date attribute)",
+        "limit": 0
+    },
+    "dashboard.xirr.error.invalid_buckets.text._measure": {
+        "value": "Make sure you have selected one measure and one date attribute",
+        "comment": "The user should be instructed to review that they have added one measure and one date attribute to the insight",
+        "limit": 0
+    },
+    "dashboard.xirr.error.invalid_buckets.text._metric": {
+        "value": "Make sure you have selected one metric and one date attribute",
+        "comment": "The user should be instructed to review that they have added one metric and one date attribute to the insight",
+        "limit": 0
+    },
+    "properties.unsupported": {
+        "value": "This visualization doesn’t support configuration",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.config.not_applicable|insight": {
+        "value": "Configuration Panel is not applicable for this configuration of the insight",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.config.not_applicable|report": {
+        "value": "Configuration Panel is not applicable for this configuration of the report",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "properties.not_applicable|insight": {
+        "value": "Property is not applicable for this configuration of the insight",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.not_applicable|report": {
+        "value": "Property is not applicable for this configuration of the report",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "properties.auto_placeholder": {
+        "value": "auto",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.auto_default": {
+        "value": "auto (default)",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.legend.title": {
+        "value": "Legend",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.legend.position": {
+        "value": "Position",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.title": {
+        "value": "Canvas",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.gridline": {
+        "value": "Gridline",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataLabels": {
+        "value": "Data Labels",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataLabels.auto": {
+        "value": "auto (default)",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataLabels.show": {
+        "value": "show",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataLabels.hide": {
+        "value": "hide",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.totalLabels": {
+        "value": "Total Labels",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.totalLabels.auto": {
+        "value": "auto (default)",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.totalLabels.show": {
+        "value": "show",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.totalLabels.hide": {
+        "value": "hide",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataPoints": {
+        "value": "Data Points",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataPoints.auto": {
+        "value": "auto (default)",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataPoints.show": {
+        "value": "show",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.canvas.dataPoints.hide": {
+        "value": "hide",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.yaxis.title": {
+        "value": "Y-Axis",
+        "comment": "Vertical axis of a plot.",
+        "limit": 0
+    },
+    "properties.axis.labels": {
+        "value": "labels",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.rotation": {
+        "value": "Rotation",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.format": {
+        "value": "Format",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.format.inherit": {
+        "value": "inherit",
+        "comment": "Axis format option to inherit formatting from used measure.",
+        "limit": 0
+    },
+    "properties.axis.format.info.inherit._measure|insight": {
+        "value": "The format is inherited from the first measure in the insight.",
+        "comment": "Info text for axis format option.",
+        "limit": 0
+    },
+    "properties.axis.format.info.inherit._metric|insight": {
+        "value": "The format is inherited from the first metric in the insight.",
+        "comment": "Info text for axis format option.",
+        "limit": 0
+    },
+    "properties.axis.format.info.inherit._measure|report": {
+        "value": "The format is inherited from the first measure in the report.",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "properties.axis.format.info.inherit._metric|report": {
+        "value": "The format is inherited from the first metric in the report.",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "properties.axis.name": {
+        "value": "name",
+        "comment": "Name of the axis of a chart",
+        "limit": 0
+    },
+    "properties.axis.name.position": {
+        "value": "Position",
+        "comment": "Position of the axis of a chart",
+        "limit": 0
+    },
+    "properties.axis.name.position.left": {
+        "value": "left",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.name.position.center": {
+        "value": "center",
+        "comment": "Horizontal center (between left and right)",
+        "limit": 0
+    },
+    "properties.axis.name.position.right": {
+        "value": "right",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.name.position.top": {
+        "value": "top",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.name.position.middle": {
+        "value": "middle",
+        "comment": "Vertical center (between top and bottom)",
+        "limit": 0
+    },
+    "properties.axis.name.position.bottom": {
+        "value": "bottom",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.min": {
+        "value": "Min",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.min.warning": {
+        "value": "Min value cannot be greater than max value",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.max": {
+        "value": "Max",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.max.warning": {
+        "value": "Max value cannot be smaller than min value",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.xaxis.title": {
+        "value": "X-Axis",
+        "comment": "Horizontal axis of a plot.",
+        "limit": 0
+    },
+    "properties.axis.scale": {
+        "value": "scale",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.left": {
+        "value": "Left",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.right": {
+        "value": "Right",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.top": {
+        "value": "Top",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.axis.bottom": {
+        "value": "Bottom",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.rotation.0": {
+        "value": "0°",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.rotation.30": {
+        "value": "30°",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.rotation.60": {
+        "value": "60°",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.rotation.90": {
+        "value": "90°",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.legend.position.up": {
+        "value": "top",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.legend.position.down": {
+        "value": "bottom",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.legend.position.right": {
+        "value": "right",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.legend.position.left": {
+        "value": "left",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.points.title": {
+        "value": "Points",
+        "comment": "Points on map",
+        "limit": 0
+    },
+    "properties.points.groupNearbyPoints": {
+        "value": "Group nearby points",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.points.size.title": {
+        "value": "Point Size",
+        "comment": "Size of a point on a map",
+        "limit": 0
+    },
+    "properties.points.size.extra_small": {
+        "value": "0.5x",
+        "comment": "Multiplicator of size of a point on map. Means 50% of size.",
+        "limit": 0
+    },
+    "properties.points.size.small": {
+        "value": "0.75x",
+        "comment": "Multiplicator of size of a point on map. Means 75% of size.",
+        "limit": 0
+    },
+    "properties.points.size.normal": {
+        "value": "normal",
+        "comment": "Multiplicator of size of a point on map. Means 100% of size.",
+        "limit": 0
+    },
+    "properties.points.size.large": {
+        "value": "1.25x",
+        "comment": "Multiplicator of size of a point on map. Means 125% of size.",
+        "limit": 0
+    },
+    "properties.points.size.extra_large": {
+        "value": "1.5x",
+        "comment": "Multiplicator of size of a point on map. Means 150% of size.",
+        "limit": 0
+    },
+    "properties.points.size.min.title": {
+        "value": "Smallest",
+        "comment": "Smallest size of a point on a map",
+        "limit": 0
+    },
+    "properties.points.size.max.title": {
+        "value": "Largest",
+        "comment": "Largest size of a point on a map",
+        "limit": 0
+    },
+    "properties.map.title": {
+        "value": "Map",
+        "comment": "Map configuration",
+        "limit": 0
+    },
+    "properties.viewport.area.title": {
+        "value": "Default viewport",
+        "comment": "Default viewport configuration",
+        "limit": 0
+    },
+    "properties.viewport.area.auto_default": {
+        "value": "Include all data",
+        "comment": "All data will be visibled on the map",
+        "limit": 0
+    },
+    "properties.viewport.area.continents": {
+        "value": "continents",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.viewport.area.continent_af": {
+        "value": "Africa",
+        "comment": "Continent Africa",
+        "limit": 0
+    },
+    "properties.viewport.area.continent_as": {
+        "value": "Asia",
+        "comment": "Continent Asia",
+        "limit": 0
+    },
+    "properties.viewport.area.continent_au": {
+        "value": "Australia",
+        "comment": "Continent Australia",
+        "limit": 0
+    },
+    "properties.viewport.area.continent_eu": {
+        "value": "Europe",
+        "comment": "Continent Europe",
+        "limit": 0
+    },
+    "properties.viewport.area.continent_na": {
+        "value": "America (North)",
+        "comment": "Continent North America",
+        "limit": 0
+    },
+    "properties.viewport.area.continent_sa": {
+        "value": "America (South)",
+        "comment": "Continent South America",
+        "limit": 0
+    },
+    "properties.viewport.area.world": {
+        "value": "World",
+        "comment": "",
+        "limit": 0
+    },
+    "gs.color-dropdown.custom-color": {
+        "value": "Custom color",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.colors.reset-colors": {
+        "value": "Reset Colors",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.colors": {
+        "value": "Colors",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.colors.unsupported|insight": {
+        "value": "There are no colors for this configuration of the insight",
+        "comment": "",
+        "limit": 0
+    },
+    "properties.colors.unsupported|report": {
+        "value": "There are no colors for this configuration of the report",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "export_unsupported.colors|insight": {
+        "value": "The insight is not compatible with custom colors. To open the insight as a report, click Reset Colors in Configuration —> Colors.",
+        "comment": "",
+        "limit": 0
+    },
+    "export_unsupported.colors|report": {
+        "value": "The report is not compatible with custom colors. Click Reset Colors in Configuration —> Colors.",
+        "comment": "",
+        "limit": 0,
+        "translate": false
+    },
+    "dashboard.bucket.measures_title.bullet._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_title.bullet._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.bullet._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_title.bullet._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.tertiary_measures_title.bullet._measure": {
+        "value": "Measure",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.tertiary_measures_title.bullet._metric": {
+        "value": "Metric",
+        "comment": "",
+        "limit": 0
+    },
+    "dashboard.bucket.measures_subtitle.bullet": {
+        "value": "Primary",
+        "comment": "Primary measure of a bullet chart.",
+        "limit": 0
+    },
+    "dashboard.bucket.secondary_measures_subtitle.bullet": {
+        "value": "Target",
+        "comment": "Target of a bullet chart.",
+        "limit": 0
+    },
+    "dashboard.bucket.tertiary_measures_subtitle.bullet": {
+        "value": "Comparative",
+        "comment": "Comparative measures of a bullet chart",
+        "limit": 0
+    },
+    "sorting.disabled.explanation.attribute|insight": {
+        "value": "Sorting is not possible for this insight configuration.",
+        "comment": "Explains why sort button is disabled. Shown as tooltip",
+        "limit": 0
+    },
+    "sorting.disabled.explanation.attribute|report": {
+        "value": "Sorting is not possible for this report configuration.",
+        "comment": "Explains why sort button is disabled. Shown as tooltip",
+        "limit": 0,
+        "translate": false
+    },
+    "sorting.disabled.explanation.measure._measure|insight": {
+        "value": "You must add at least one attribute to sort the insight. You can also adjust the position of items in the Measures section to change their position in the insight.",
+        "comment": "Explains why sort button is disabled. Shown as tooltip",
+        "limit": 0
+    },
+    "sorting.disabled.explanation.measure._measure|report": {
+        "value": "You must add at least one attribute to sort the report. You can also adjust the position of items in the Measures section to change their position in the report.",
+        "comment": "Explains why sort button is disabled. Shown as tooltip",
+        "limit": 0,
+        "translate": false
+    },
+    "sorting.disabled.explanation.measure._metric|insight": {
+        "value": "You must add at least one attribute to sort the insight. You can also adjust the position of items in the Metrics section to change their position in the insight.",
+        "comment": "Explains why sort button is disabled. Shown as tooltip",
+        "limit": 0
+    },
+    "sorting.disabled.explanation.measure._metric|report": {
+        "value": "You must add at least one attribute to sort the report. You can also adjust the position of items in the Metrics section to change their position in the report.",
+        "comment": "Explains why sort button is disabled. Shown as tooltip",
+        "limit": 0,
+        "translate": false
+    }
+}

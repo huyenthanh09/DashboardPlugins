@@ -1,0 +1,47 @@
+import { IExecutionFactory } from "@gooddata/sdk-backend-spi";
+import { IDimension, IInsight, IInsightDefinition, ISortItem, ISettings } from "@gooddata/sdk-model";
+import { ChartType } from "@gooddata/sdk-ui";
+import { IChartConfig } from "@gooddata/sdk-ui-charts";
+import { AxisType } from "../../../interfaces/AxisType";
+import { IColorConfiguration } from "../../../interfaces/Colors";
+import { IBucketItem, IBucketOfFun, IDrillDownContext, IExtendedReferencePoint, IReferencePoint, IReferences, IUiConfig, IVisConstruct, IVisProps, IVisualizationProperties } from "../../../interfaces/Visualization";
+import { IAvailableSortsGroup } from "../../../interfaces/SortConfig";
+import { AbstractPluggableVisualization } from "../AbstractPluggableVisualization";
+export declare class PluggableBaseChart extends AbstractPluggableVisualization {
+    protected projectId: string;
+    protected type: ChartType;
+    protected featureFlags: ISettings;
+    protected defaultControlsProperties: IVisualizationProperties;
+    protected customControlsProperties: IVisualizationProperties;
+    protected colors: IColorConfiguration;
+    protected references: IReferences;
+    protected ignoreUndoRedo: boolean;
+    protected axis: string;
+    protected secondaryAxis: AxisType;
+    protected environment: string;
+    protected readonly renderFun: (component: any, target: Element) => void;
+    constructor(props: IVisConstruct);
+    unmount(): void;
+    getUiConfig(): IUiConfig;
+    getExtendedReferencePoint(referencePoint: IReferencePoint): Promise<IExtendedReferencePoint>;
+    getInsightWithDrillDownApplied(source: IInsight, drillDownContext: IDrillDownContext, backendSupportsElementUris: boolean): IInsight;
+    isOpenAsReportSupported(): boolean;
+    setCustomControlsProperties(customControlsProperties: IVisualizationProperties): void;
+    getExecution(options: IVisProps, insight: IInsightDefinition, executionFactory: IExecutionFactory): import("@gooddata/sdk-backend-spi").IPreparedExecution;
+    protected configureBuckets(extendedReferencePoint: IExtendedReferencePoint): void;
+    protected getSupportedPropertiesList(): string[];
+    protected getStackItems(buckets: IBucketOfFun[]): IBucketItem[];
+    protected checkBeforeRender(insight: IInsightDefinition): boolean;
+    protected renderVisualization(options: IVisProps, insight: IInsightDefinition, executionFactory: IExecutionFactory): void;
+    protected initializeProperties(visualizationProperties: IVisualizationProperties): void;
+    protected renderConfigurationPanel(insight: IInsightDefinition): void;
+    protected getDimensions(insight: IInsightDefinition): IDimension[];
+    protected handleConfirmedColorMapping(data: any): void;
+    protected handlePushData: (data: any) => void;
+    protected buildVisualizationConfig(options: IVisProps, supportedControls: IVisualizationProperties): IChartConfig;
+    private getOpenAsReportConfig;
+    private getSupportedControls;
+    protected isMultipleDatesEnabled(): boolean;
+    protected reuseCurrentSort(previousAvailableSorts: IAvailableSortsGroup[], properties: IVisualizationProperties, availableSorts: IAvailableSortsGroup[], defaultSort: ISortItem[]): ISortItem[];
+}
+//# sourceMappingURL=PluggableBaseChart.d.ts.map

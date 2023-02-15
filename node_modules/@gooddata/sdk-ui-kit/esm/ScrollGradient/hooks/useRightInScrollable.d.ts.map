@@ -1,0 +1,1 @@
+{"version":3,"file":"useRightInScrollable.d.ts","sourceRoot":"","sources":["../../../src/ScrollGradient/hooks/useRightInScrollable.ts"],"names":[],"mappings":"AAMA,wBAAgB,oBAAoB,IAAI;IACpC,KAAK,EAAE,MAAM,CAAC;IACd,OAAO,EAAE,WAAW,GAAG,IAAI,CAAC;IAC5B,UAAU,EAAE,CAAC,OAAO,EAAE,WAAW,KAAK,IAAI,CAAC;CAC9C,CAoBA"}

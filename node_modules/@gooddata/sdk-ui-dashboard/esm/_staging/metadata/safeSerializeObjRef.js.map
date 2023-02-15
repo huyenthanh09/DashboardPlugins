@@ -1,0 +1,1 @@
+{"version":3,"file":"safeSerializeObjRef.js","sourceRoot":"","sources":["../../../src/_staging/metadata/safeSerializeObjRef.ts"],"names":[],"mappings":"AAAA,gCAAgC;AAChC,OAAO,EAAiB,eAAe,EAAE,MAAM,qBAAqB,CAAC;AAErE;;;;GAIG;AACH,MAAM,UAAU,mBAAmB,CAAC,GAA8B;IAC9D,OAAO,GAAG,CAAC,CAAC,CAAC,eAAe,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;AAC3C,CAAC"}

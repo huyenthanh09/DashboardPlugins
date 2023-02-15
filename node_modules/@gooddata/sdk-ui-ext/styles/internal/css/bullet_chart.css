@@ -1,0 +1,8 @@
+.highcharts-container .highcharts-bullet-series .highcharts-point {
+  visibility: hidden;
+}
+.highcharts-container .highcharts-bullet-series .highcharts-bullet-target {
+  visibility: visible;
+}
+
+/*# sourceMappingURL=bullet_chart.css.map */

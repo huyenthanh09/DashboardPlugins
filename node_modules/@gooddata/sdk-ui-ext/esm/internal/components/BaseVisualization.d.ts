@@ -1,0 +1,63 @@
+import { IAnalyticalBackend } from "@gooddata/sdk-backend-spi";
+import { ISettings, ITheme, IInsight, IInsightDefinition, IVisualizationClass, IExecutionConfig } from "@gooddata/sdk-model";
+import React from "react";
+import { ExplicitDrill, ILocale, OnError, OnExportReady, OnLoadingChanged, VisualizationEnvironment } from "@gooddata/sdk-ui";
+import { IBucketItem, IGdcConfig, IReferencePoint, IVisCallbacks, IDrillDownContext, IExtendedReferencePoint } from "../interfaces/Visualization";
+import { IVisualizationCatalog } from "./VisualizationCatalog";
+import { ISortConfig } from "../interfaces/SortConfig";
+export interface IBaseVisualizationProps extends IVisCallbacks {
+    backend: IAnalyticalBackend;
+    projectId: string;
+    insight: IInsightDefinition;
+    insightPropertiesMeta?: any;
+    config?: IGdcConfig;
+    executionConfig?: IExecutionConfig;
+    visualizationClass: IVisualizationClass;
+    environment?: VisualizationEnvironment;
+    width?: number;
+    height?: number;
+    locale?: ILocale;
+    dateFormat?: string;
+    drillableItems?: ExplicitDrill[];
+    totalsEditAllowed?: boolean;
+    featureFlags?: ISettings;
+    visualizationCatalog?: IVisualizationCatalog;
+    newDerivedBucketItems?: IBucketItem[];
+    referencePoint?: IReferencePoint;
+    onError: OnError;
+    onExportReady?: OnExportReady;
+    onLoadingChanged: OnLoadingChanged;
+    isMdObjectValid?: boolean;
+    configPanelClassName?: string;
+    theme?: ITheme;
+    onExtendedReferencePointChanged?(referencePoint: IExtendedReferencePoint, sortConfig?: ISortConfig): void;
+    onSortingChanged?(sortConfig: ISortConfig): void;
+    onNewDerivedBucketItemsPlaced?(): void;
+    renderer?(component: any, target: Element): void;
+}
+export declare class BaseVisualization extends React.PureComponent<IBaseVisualizationProps> {
+    static defaultProps: Pick<IBaseVisualizationProps, "visualizationCatalog" | "newDerivedBucketItems" | "referencePoint" | "onExtendedReferencePointChanged" | "onNewDerivedBucketItemsPlaced" | "isMdObjectValid" | "configPanelClassName" | "featureFlags" | "renderer">;
+    private visElementId;
+    private visualization;
+    private executionFactory;
+    private containerRef;
+    constructor(props: IBaseVisualizationProps);
+    componentWillUnmount(): void;
+    UNSAFE_componentWillReceiveProps(nextProps: IBaseVisualizationProps): void;
+    componentDidMount(): void;
+    componentDidUpdate(): void;
+    render(): JSX.Element;
+    private getVisElementClassName;
+    private getClassName;
+    private setupVisualization;
+    private updateVisualization;
+    private triggerPlaceNewDerivedBucketItems;
+    private triggerExtendedReferencePointChanged;
+    private triggerPropertiesChanged;
+    private static bucketReferencePointHasChanged;
+    private static propertiesControlsHasChanged;
+    private getVisualizationProps;
+    getInsightWithDrillDownApplied(sourceVisualization: IInsight, drillDownContext: IDrillDownContext): IInsight;
+    getExecution(): import("@gooddata/sdk-backend-spi").IPreparedExecution;
+}
+//# sourceMappingURL=BaseVisualization.d.ts.map

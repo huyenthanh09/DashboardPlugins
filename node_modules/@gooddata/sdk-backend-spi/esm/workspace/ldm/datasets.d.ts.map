@@ -1,0 +1,1 @@
+{"version":3,"file":"datasets.d.ts","sourceRoot":"","sources":["../../../src/workspace/ldm/datasets.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,eAAe,EAAE,MAAM,qBAAqB,CAAC;AAEhE;;;;GAIG;AACH,MAAM,WAAW,yBAAyB;IACtC;;;;OAIG;IACH,WAAW,IAAI,OAAO,CAAC,QAAQ,EAAE,CAAC,CAAC;IAEnC;;;;OAIG;IACH,kBAAkB,IAAI,OAAO,CAAC,eAAe,EAAE,CAAC,CAAC;CACpD"}
