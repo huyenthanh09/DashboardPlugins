@@ -3,6 +3,8 @@ import {
     DefaultDashboardToolbar,
     DefaultDashboardToolbarButton,
     DefaultDashboardToolbarGroup,
+    selectIsInEditMode,
+    useDashboardSelector,
 } from "@gooddata/sdk-ui-dashboard";
 import React from "react";
 
@@ -16,16 +18,20 @@ interface IPluginToolbarProps {
 
 export const PluginToolbar: React.FC<IPluginToolbarProps> = (props) => {
     const { isPluginEnabled, isHideOverlaysEnabled, reloadPlugins, togglePlugin, hideOverlays } = props;
+    const isInEditMode = useDashboardSelector(selectIsInEditMode);
+
     return (
         <DefaultDashboardToolbar>
             <DefaultDashboardToolbarGroup title="Plugins">
                 <DefaultDashboardToolbarButton icon="sync" onClick={reloadPlugins} tooltip="Reload" />
-                <DefaultDashboardToolbarButton
-                    icon="invisible"
-                    onClick={hideOverlays}
-                    tooltip="Hide overlays"
-                    disabled={!isHideOverlaysEnabled}
-                />
+                {!!isInEditMode && (
+                    <DefaultDashboardToolbarButton
+                        icon="invisible"
+                        onClick={hideOverlays}
+                        tooltip="Hide overlays"
+                        disabled={!isHideOverlaysEnabled}
+                    />
+                )}
                 <DefaultDashboardToolbarButton
                     icon="circle-cross"
                     onClick={togglePlugin}

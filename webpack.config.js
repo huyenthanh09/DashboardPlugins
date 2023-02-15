@@ -223,7 +223,7 @@ module.exports = (_env, argv) => {
                         // add all the packages that absolutely need to be shared and singletons because of contexts
                         // change the allowPrereleaseVersions to true if you want to work with alpha or beta versions
                         // beware that alpha and beta versions may break and may contain bugs, use at your own risk
-                        ...generateGooddataSharePackagesEntries({ allowPrereleaseVersions: false }),
+                        ...generateGooddataSharePackagesEntries({ allowPrereleaseVersions: true }),
                     },
                 }),
             ],

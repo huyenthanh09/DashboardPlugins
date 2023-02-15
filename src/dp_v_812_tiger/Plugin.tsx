@@ -18,6 +18,7 @@ import {
     useDashboardSelector,
     ICustomWidget,
     useCustomWidgetExecutionDataView,
+    CustomDashboardInsightComponent,
 } from "@gooddata/sdk-ui-dashboard";
 import {
     Legend,
@@ -33,12 +34,20 @@ import {
 import entryPoint from "../dp_v_812_tiger_entry";
 
 import React from "react";
-import { IAttribute, idRef, IMeasure, IMeasureDefinition, newAttribute, newMeasure } from "@gooddata/sdk-model";
+import { IAttribute, idRef, IMeasure, IMeasureDefinition, insightTitle, newAttribute, newMeasure } from "@gooddata/sdk-model";
 import { max } from "lodash";
 
 function MyCustomWidget(_props: IDashboardWidgetProps): JSX.Element {
     return <div>Hello from custom widget</div>;
 }
+
+const TooltipChart: React.FC = () => {
+    return (
+                <div className="tooltip-icon gd-icon-circle-question__container">
+                    ABCDEF
+                </div>
+    );
+};
 
 const changeFilterDashboard: CustomDashboardWidgetComponent = () => {
     /**
@@ -185,6 +194,23 @@ export class Plugin extends DashboardPluginV1 {
         customize.customWidgets().addCustomWidget("myWidgetWithFilters", MyCustomWidgetWithFilters);
 
         customize.filterBar().setRenderingMode("default");
+
+        customize.insightWidgets().withCustomDecorator((insightProvider) => (insight, widget) => {
+            const InsightTooltipCustomDecorator: CustomDashboardInsightComponent = (props) => {
+                const Insight = insightProvider(insight, widget);
+                if (insightTitle(insight) === "date format 2") {
+                    return (
+                        <>
+                            <Insight {...props} />
+                            <TooltipChart />
+                        </>
+                    );
+                }
+                return <Insight {...props} />;
+            };
+
+            return InsightTooltipCustomDecorator;
+        });
         
         customize.layout().customizeFluidLayout((_layout, customizer) => {
             customizer.addSection(
@@ -197,15 +223,28 @@ export class Plugin extends DashboardPluginV1 {
                             gridHeight: 12,
                         },
                     }),
-                    newDashboardItem(
-                        newCustomWidget("myWidget2", "changeFilters"),
-                        {
-                            xl: {gridWidth: 12,gridHeight: 3,},
-                        },
-                    ),
+                    // newDashboardItem(
+                    //     newCustomWidget("myWidget2", "changeFilters"),
+                    //     {
+                    //         xl: {gridWidth: 12,gridHeight: 3,},
+                    //     },
+                    // ),
                 ),
             );
+            customizer.addItem(
+                0, -1,
+                newDashboardItem(newCustomWidget("myWidget2", "changeFilters"), {
+                    xl: {
+                        // all 12 columns of the grid will be 'allocated' for this this new item
+                        gridWidth: 6,
+                        // minimum height since the custom widget now has just some one-liner text
+                        gridHeight: 15,
+                    },
+                }),
+            );
         });
+
+        
         customize.layout().customizeFluidLayout((_layout, customizer) => {
             customizer.addSection(
                 1,
